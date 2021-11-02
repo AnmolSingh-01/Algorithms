@@ -49,7 +49,7 @@ ERROR!
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ArrayList_problem_1 {
+public class ArrayList_problem_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList[] list = new ArrayList[20002];
