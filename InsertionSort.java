@@ -20,22 +20,22 @@ class InsertionSort {
    }
  }
 
-void printArr(int arr[])
+static void printArr(int arr[])
  {
     int n = arr.length;
 
     for(int i = 0 ; i < n ; i++) {
    
       System.out.print(arr[i] + " " );
-    System.out.println();
+    System.out.print(" " );
 }
-
+}
 public static void main(String args[]) {
 
 System.out.println("Enter the size of array : ");
 Scanner sc = new Scanner(System.in);
 int m = sc.nextInt();
-int arr[] = new Int[m];
+int arr[] = new int[m];
 System.out.println("Enter the array elements");
 
 for (int i = 0 ; i < m ; i++) {
@@ -45,8 +45,8 @@ for (int i = 0 ; i < m ; i++) {
 
 
 InsertionSort obj = new InsertionSort();
-obj.sort();
-
+obj.sort(arr);
+System.out.print("Sorted elements are : ");
 printArr(arr);
 
  }
